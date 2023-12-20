@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.box {
+  width: 90%;
+  height: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+button {
+  height: 30px;
+  width: 150px;
+}
+.des {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.alg {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mainBox {
+  width: 80%;
+  height: 600px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+select {
+  width: 30px;
+}
+.colAlg {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+src {
+  height: 20px;
+  width: 30px;
+}
